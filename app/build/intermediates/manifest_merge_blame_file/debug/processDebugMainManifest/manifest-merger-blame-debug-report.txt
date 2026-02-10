@@ -1,0 +1,91 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3 Copyright 2016 Google Inc.
+4
+5Licensed under the Apache License, Version 2.0 (the "License");
+6you may not use this file except in compliance with the License.
+7You may obtain a copy of the License at
+8
+9    http://www.apache.org/licenses/LICENSE-2.0
+10
+11Unless required by applicable law or agreed to in writing, software
+12distributed under the License is distributed on an "AS IS" BASIS,
+13WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14See the License for the specific language governing permissions and
+15limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.android.example.wordlistsql"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="29"
+24        android:targetSdkVersion="34" />
+25
+26    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+26-->C:\Users\Admin\Desktop\Apuntes\Desarrollo de Aplicaciones Moviles\WordListSql-Starter\app\src\main\AndroidManifest.xml:18:5-76
+26-->C:\Users\Admin\Desktop\Apuntes\Desarrollo de Aplicaciones Moviles\WordListSql-Starter\app\src\main\AndroidManifest.xml:18:22-74
+27
+28    <application
+28-->C:\Users\Admin\Desktop\Apuntes\Desarrollo de Aplicaciones Moviles\WordListSql-Starter\app\src\main\AndroidManifest.xml:19:5-36:19
+29        android:allowBackup="true"
+29-->C:\Users\Admin\Desktop\Apuntes\Desarrollo de Aplicaciones Moviles\WordListSql-Starter\app\src\main\AndroidManifest.xml:20:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.7.0] C:\Users\Admin\.gradle\caches\8.13\transforms\c1f0e1de2df734b20e99caa6cfd64f1b\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:extractNativeLibs="false"
+33        android:icon="@mipmap/ic_launcher"
+33-->C:\Users\Admin\Desktop\Apuntes\Desarrollo de Aplicaciones Moviles\WordListSql-Starter\app\src\main\AndroidManifest.xml:21:9-43
+34        android:label="@string/app_name"
+34-->C:\Users\Admin\Desktop\Apuntes\Desarrollo de Aplicaciones Moviles\WordListSql-Starter\app\src\main\AndroidManifest.xml:22:9-41
+35        android:supportsRtl="true"
+35-->C:\Users\Admin\Desktop\Apuntes\Desarrollo de Aplicaciones Moviles\WordListSql-Starter\app\src\main\AndroidManifest.xml:23:9-35
+36        android:testOnly="true"
+37        android:theme="@style/AppTheme" >
+37-->C:\Users\Admin\Desktop\Apuntes\Desarrollo de Aplicaciones Moviles\WordListSql-Starter\app\src\main\AndroidManifest.xml:24:9-40
+38        <activity
+38-->C:\Users\Admin\Desktop\Apuntes\Desarrollo de Aplicaciones Moviles\WordListSql-Starter\app\src\main\AndroidManifest.xml:25:9-33:20
+39            android:name="com.android.example.wordlistsql.MainActivity"
+39-->C:\Users\Admin\Desktop\Apuntes\Desarrollo de Aplicaciones Moviles\WordListSql-Starter\app\src\main\AndroidManifest.xml:25:19-47
+40            android:exported="true" >
+40-->C:\Users\Admin\Desktop\Apuntes\Desarrollo de Aplicaciones Moviles\WordListSql-Starter\app\src\main\AndroidManifest.xml:26:13-36
+41            <intent-filter>
+41-->C:\Users\Admin\Desktop\Apuntes\Desarrollo de Aplicaciones Moviles\WordListSql-Starter\app\src\main\AndroidManifest.xml:27:13-31:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->C:\Users\Admin\Desktop\Apuntes\Desarrollo de Aplicaciones Moviles\WordListSql-Starter\app\src\main\AndroidManifest.xml:28:17-69
+42-->C:\Users\Admin\Desktop\Apuntes\Desarrollo de Aplicaciones Moviles\WordListSql-Starter\app\src\main\AndroidManifest.xml:28:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->C:\Users\Admin\Desktop\Apuntes\Desarrollo de Aplicaciones Moviles\WordListSql-Starter\app\src\main\AndroidManifest.xml:30:17-77
+44-->C:\Users\Admin\Desktop\Apuntes\Desarrollo de Aplicaciones Moviles\WordListSql-Starter\app\src\main\AndroidManifest.xml:30:27-74
+45            </intent-filter>
+46        </activity>
+47        <activity android:name="com.android.example.wordlistsql.EditWordActivity" />
+47-->C:\Users\Admin\Desktop\Apuntes\Desarrollo de Aplicaciones Moviles\WordListSql-Starter\app\src\main\AndroidManifest.xml:34:9-63
+47-->C:\Users\Admin\Desktop\Apuntes\Desarrollo de Aplicaciones Moviles\WordListSql-Starter\app\src\main\AndroidManifest.xml:34:19-51
+48
+49        <provider
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\8.13\transforms\66b8838018d23ba19e2fb2673cb74c05\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+50            android:name="androidx.startup.InitializationProvider"
+50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\8.13\transforms\66b8838018d23ba19e2fb2673cb74c05\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+51            android:authorities="com.android.example.wordlistsql.androidx-startup"
+51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\8.13\transforms\66b8838018d23ba19e2fb2673cb74c05\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+52            android:exported="false" >
+52-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\8.13\transforms\66b8838018d23ba19e2fb2673cb74c05\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+53            <meta-data
+53-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\8.13\transforms\66b8838018d23ba19e2fb2673cb74c05\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+54                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+54-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\8.13\transforms\66b8838018d23ba19e2fb2673cb74c05\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+55                android:value="androidx.startup" />
+55-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\8.13\transforms\66b8838018d23ba19e2fb2673cb74c05\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+56            <meta-data
+56-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Admin\.gradle\caches\8.13\transforms\34e7693801bfb1409559aa11998baca9\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+57                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+57-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Admin\.gradle\caches\8.13\transforms\34e7693801bfb1409559aa11998baca9\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+58                android:value="androidx.startup" />
+58-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Admin\.gradle\caches\8.13\transforms\34e7693801bfb1409559aa11998baca9\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+59        </provider>
+60    </application>
+61
+62</manifest>
