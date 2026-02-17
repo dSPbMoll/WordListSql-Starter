@@ -162,4 +162,21 @@ public class WordListOpenHelper extends SQLiteOpenHelper {
         }
         return mNumberOfRowsUpdated;
     }
+
+    public Cursor search(String word) {
+        String[] columns = new String[]{KEY_WORD};
+        word = "%" + word + "%";
+        String where = KEY_WORD + " LIKE ?";
+        String[] whereArgs = new String[]{word};
+        Cursor cursor = null;
+        try {
+            if (mReadableDB == null) {
+                mReadableDB = getReadableDatabase();
+            }
+            cursor = mReadableDB.query(WORD_LIST_TABLE, columns, where, whereArgs, null, null, null);
+        }catch (Exception e){
+            Log.d(TAG, "SEARCH EXCEPTION: " + e.getMessage());
+        }
+        return cursor;
+    }
 }

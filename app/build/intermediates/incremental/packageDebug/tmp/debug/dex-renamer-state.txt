@@ -1,4 +1,4 @@
-#Tue Feb 10 20:42:03 CET 2026
+#Tue Feb 17 19:34:32 CET 2026
 base.0=C\:\\Users\\Admin\\Desktop\\Apuntes\\Desarrollo de Aplicaciones Moviles\\WordListSql-Starter\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\Admin\\Desktop\\Apuntes\\Desarrollo de Aplicaciones Moviles\\WordListSql-Starter\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\Users\\Admin\\Desktop\\Apuntes\\Desarrollo de Aplicaciones Moviles\\WordListSql-Starter\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex

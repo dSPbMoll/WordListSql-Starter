@@ -28,7 +28,7 @@
 26-->C:\Users\Admin\Desktop\Apuntes\Desarrollo de Aplicaciones Moviles\WordListSql-Starter\app\src\main\AndroidManifest.xml:18:22-74
 27
 28    <application
-28-->C:\Users\Admin\Desktop\Apuntes\Desarrollo de Aplicaciones Moviles\WordListSql-Starter\app\src\main\AndroidManifest.xml:19:5-36:19
+28-->C:\Users\Admin\Desktop\Apuntes\Desarrollo de Aplicaciones Moviles\WordListSql-Starter\app\src\main\AndroidManifest.xml:19:5-40:19
 29        android:allowBackup="true"
 29-->C:\Users\Admin\Desktop\Apuntes\Desarrollo de Aplicaciones Moviles\WordListSql-Starter\app\src\main\AndroidManifest.xml:20:9-35
 30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -64,28 +64,32 @@
 47        <activity android:name="com.android.example.wordlistsql.EditWordActivity" />
 47-->C:\Users\Admin\Desktop\Apuntes\Desarrollo de Aplicaciones Moviles\WordListSql-Starter\app\src\main\AndroidManifest.xml:34:9-63
 47-->C:\Users\Admin\Desktop\Apuntes\Desarrollo de Aplicaciones Moviles\WordListSql-Starter\app\src\main\AndroidManifest.xml:34:19-51
-48
-49        <provider
-49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\8.13\transforms\66b8838018d23ba19e2fb2673cb74c05\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-50            android:name="androidx.startup.InitializationProvider"
-50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\8.13\transforms\66b8838018d23ba19e2fb2673cb74c05\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
-51            android:authorities="com.android.example.wordlistsql.androidx-startup"
-51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\8.13\transforms\66b8838018d23ba19e2fb2673cb74c05\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
-52            android:exported="false" >
-52-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\8.13\transforms\66b8838018d23ba19e2fb2673cb74c05\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
-53            <meta-data
-53-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\8.13\transforms\66b8838018d23ba19e2fb2673cb74c05\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-54                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-54-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\8.13\transforms\66b8838018d23ba19e2fb2673cb74c05\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
-55                android:value="androidx.startup" />
-55-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\8.13\transforms\66b8838018d23ba19e2fb2673cb74c05\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
-56            <meta-data
-56-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Admin\.gradle\caches\8.13\transforms\34e7693801bfb1409559aa11998baca9\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-57                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-57-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Admin\.gradle\caches\8.13\transforms\34e7693801bfb1409559aa11998baca9\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-58                android:value="androidx.startup" />
-58-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Admin\.gradle\caches\8.13\transforms\34e7693801bfb1409559aa11998baca9\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-59        </provider>
-60    </application>
-61
-62</manifest>
+48        <activity android:name="com.android.example.wordlistsql.SearchActivity" >
+48-->C:\Users\Admin\Desktop\Apuntes\Desarrollo de Aplicaciones Moviles\WordListSql-Starter\app\src\main\AndroidManifest.xml:35:9-37:20
+48-->C:\Users\Admin\Desktop\Apuntes\Desarrollo de Aplicaciones Moviles\WordListSql-Starter\app\src\main\AndroidManifest.xml:36:13-74
+49        </activity>
+50
+51        <provider
+51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\8.13\transforms\66b8838018d23ba19e2fb2673cb74c05\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+52            android:name="androidx.startup.InitializationProvider"
+52-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\8.13\transforms\66b8838018d23ba19e2fb2673cb74c05\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+53            android:authorities="com.android.example.wordlistsql.androidx-startup"
+53-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\8.13\transforms\66b8838018d23ba19e2fb2673cb74c05\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+54            android:exported="false" >
+54-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\8.13\transforms\66b8838018d23ba19e2fb2673cb74c05\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+55            <meta-data
+55-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\8.13\transforms\66b8838018d23ba19e2fb2673cb74c05\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+56                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+56-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\8.13\transforms\66b8838018d23ba19e2fb2673cb74c05\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+57                android:value="androidx.startup" />
+57-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\8.13\transforms\66b8838018d23ba19e2fb2673cb74c05\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+58            <meta-data
+58-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Admin\.gradle\caches\8.13\transforms\34e7693801bfb1409559aa11998baca9\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+59                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+59-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Admin\.gradle\caches\8.13\transforms\34e7693801bfb1409559aa11998baca9\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+60                android:value="androidx.startup" />
+60-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Admin\.gradle\caches\8.13\transforms\34e7693801bfb1409559aa11998baca9\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+61        </provider>
+62    </application>
+63
+64</manifest>
